@@ -7,7 +7,7 @@ vue create  -p dcloudio/uni-preset-vue hbs-preset-template
 ```
 
 ### 使用环境部署
-```
+```shell
 # 复制 HBuilderX 源码到 Vue-Cli 工程 src 目录下
 git clone https://gitee.com/hongboshang/hbx2vue-project-template.git
 cp -rp uniapp项目文件/* hbx2vue-project-template/src/
@@ -21,7 +21,7 @@ npm install sass-loader --registry=https://registry.npm.taobao.org
 ```
 
 ### 编译使用
-```
+```shell
 # 微信小程序编译
 npm run build:mp-weixin
 ```
